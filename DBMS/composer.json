@@ -1,0 +1,8 @@
+{
+
+    "require": {
+        "katzgrau/klogger": "dev-master",
+        "slim/slim": "^2.6",
+        "phpunit/phpunit": "^5.0"
+    }
+}
