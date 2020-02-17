@@ -2,9 +2,9 @@
 /**
  * SocialPlus - A light and agile social network
  *
- * @author      Paras Dahal <shree5paras@gmail.com>
- * @copyright   2015 Paras Dahal
- * @link        http://www.github.com/parasdahal/socialplus
+ * @author      Subrot Sundewar <subrot2895@gmail.com>
+ * @copyright   2015 Subrot Sundewar
+ * @link        http://www.github.com/subrot2895/My-Projects/socialplus
  * @license     MIT licence
  * @version     1.0
  * @package     socialplus
@@ -51,7 +51,7 @@ if(isset($_POST['username']) and isset($_POST['password']))
 	'password'=>$_POST['password'],
 	'remember'=>0
 	);
-		
+
 	$result=$user->Login($login);
 	if(is_array($result))
 	{

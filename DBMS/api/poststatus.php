@@ -2,9 +2,9 @@
 /**
  * SocialPlus - A light and agile social network
  *
- * @author      Paras Dahal <shree5paras@gmail.com>
- * @copyright   2015 Paras Dahal
- * @link        http://www.github.com/parasdahal/socialplus
+ * @author      Subrot Sundewar <subrot2895@gmail.com>
+ * @copyright   2015 Subrot Sundewar
+ * @link        http://www.github.com/subrot2895/My-Projects/socialplus
  * @license     MIT licence
  * @version     1.0
  * @package     socialplus
@@ -39,7 +39,7 @@ include('login.php');
 
 
 if(isset($_POST['extra']))
-{	
+{
 
 	$status=$_POST['status'];
 	$extra=$_POST['extra'];
